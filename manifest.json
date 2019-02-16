@@ -1,0 +1,14 @@
+{
+ "manifest_version": 2,
+ "name": "countdownTo",
+ "description": "countdownTo specific dates to plan your time now",
+ "version": "1",
+ "author": "userfriendly1",
+"browser_action": {
+   "default_title": "Have a good day"
+ },
+"chrome_url_overrides" : {
+  "newtab": "newtab.html"
+},
+ "permissions": ["activeTab"]
+}
